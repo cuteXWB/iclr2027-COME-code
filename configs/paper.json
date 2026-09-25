@@ -1,0 +1,24 @@
+{
+  "common": {
+    "epochs": 2000,
+    "K": 5,
+    "K_nn": 40,
+    "probe_interval": 5,
+    "lambda_sta": 1.0,
+    "lambda_con": 0.05,
+    "lambda_g": 0.2,
+    "rho": 0.9,
+    "memory_gamma": 0.9,
+    "dropout": 0.1,
+    "edge_drop": 0.1,
+    "edge_add": 0.05
+  },
+  "targets": {
+    "CSBM-G4": {"lr": 0.001, "weight_decay": 0.001},
+    "DE": {"lr": 0.0001, "weight_decay": 0.0001},
+    "EN": {"lr": 0.0001, "weight_decay": 0.001},
+    "DBLPv7": {"lr": 0.001, "weight_decay": 0.001},
+    "ACMv9": {"lr": 0.001, "weight_decay": 0.0001},
+    "Citationv1": {"lr": 0.001, "weight_decay": 0.001}
+  }
+}
